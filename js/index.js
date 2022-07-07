@@ -32,3 +32,13 @@ for(let i= hacker2.length -1; i>=0;i--){
     nombreReves+=elemento
 }
 console.log(nombreReves)
+//bonus2
+const phraseToCheck="A man, es plan, a canal, Panama!"
+.toLowerCase()
+.replace(/[^a-zA-Z0-9]/g, '')
+console.log(phraseToCheck)
+const reversePhrase=[...phraseToCheck].reverse().join('')
+if (phraseToCheck===reversePhrase) {
+    console.log('La frase es Palíndroma');    
+}
+else console.log('La frase No es Palíndroma');
