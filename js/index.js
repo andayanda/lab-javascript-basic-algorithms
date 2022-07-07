@@ -19,3 +19,16 @@ if (hacker1Long>hacker2Long) {
 
 
 // Iteration 3: Loops
+let nombreK='' 
+for(let i=0;i<hacker1.length;i++){
+    nombreK= nombreK+hacker1[i].toUpperCase()+" ";
+   
+}
+console.log(nombreK)
+
+let nombreReves =''
+for(let i= hacker2.length -1; i>=0;i--){
+    const elemento =hacker2.charAt(i)
+    nombreReves+=elemento
+}
+console.log(nombreReves)
